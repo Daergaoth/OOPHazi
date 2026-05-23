@@ -1,0 +1,3 @@
+class LegiTarsasag:
+    pass
+
