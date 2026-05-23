@@ -6,3 +6,15 @@ class Jarat(ABC):
         self.__jaratszam = jaratszam
         self.__celallomas = celallomas
         self.__jegyar = jegyar
+
+    @property
+    def jaratszam(self) -> str:
+        return self.__jaratszam
+
+    @property
+    def celallomas(self) -> str:
+        return self.__celallomas
+
+    @property
+    def jegyar(self) -> float:
+        return self.__jegyar

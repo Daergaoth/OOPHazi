@@ -15,3 +15,19 @@ class JegyFoglalas:
         self.__jarat = jarat
         self.__utas_nev = utas_nev
         self.__foglalas_idopont = foglalas_idopont
+
+    @property
+    def foglalas_id(self) -> str:
+        return self.__foglalas_id
+
+    @property
+    def jarat(self) -> Jarat:
+        return self.__jarat
+
+    @property
+    def utas_nev(self) -> str:
+        return self.__utas_nev
+
+    @property
+    def foglalas_idopont(self) -> datetime:
+        return self.__foglalas_idopont
