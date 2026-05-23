@@ -13,6 +13,9 @@ class FoglalasService:
         self.__foglalasok: list[JegyFoglalas] = []
         self.__kovetkezo_id = 1
 
+    def get_jaratok(self) -> list[Jarat]:
+        return self.__legi_tarsasag.jaratok
+
     def foglal_jegy(
         self,
         jaratszam: str,
